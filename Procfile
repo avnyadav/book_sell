@@ -1,4 +1,4 @@
-web: gunicorn booksellsite.wsgi --log-file -
+web: gunicorn manage.wsgi --log-file -
 
 
 
